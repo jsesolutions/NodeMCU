@@ -6,8 +6,8 @@ Für den Fall, dass sich ein Sketch zwar kompilieren lässt, aber nicht hochlade
 
 Zugriff über Terminal & sudo nano
 
-1.- Open ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
-2.- Comment out lines 29 and 30 and append these lines:
+Open ~/Library/Arduino15/packages/esp8266/hardware/esp8266/2.7.4/tools/pyserial/serial/tools/list_ports_osx.py
+Comment out lines 29 and 30 and append these lines:
 
 The code should look like this:
 Code: [Select]
